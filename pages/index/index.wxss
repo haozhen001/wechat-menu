@@ -41,24 +41,22 @@ border-radius:50rpx;
   margin-top: -10rpx;
   margin-bottom: 10rpx;
 }
-.flex-wrp{
-  display:flew;
-  margin-left: 40rpx;
-  margin-top: 40rpx;
-  margin-bottom: -20rpx;
+.barbtns{
+  margin-left: 25rpx;
+  margin-bottom: 5rpx;
 }
-.mybtn-image{
-  padding: 0rpx 30rpx;
+.btn-list{
+   display: inline-block;
+   padding:0 40rpx;
+}
+.btn-list image{
   width: 100rpx;
   height: 100rpx;
 }
-.mybtn-text{
+.btn-list view{
   font-size: 30rpx;
-  padding: 0rpx 50rpx;
-  width: 120rpx;
-  height: 100rpx;
+  margin-left: 20rpx;
 }
-
 .hx-view{
   background-color: rgba(0, 0, 0, 0.33);
   left: 0;
@@ -71,8 +69,8 @@ border-radius:50rpx;
   font-size: 30rpx;
   margin-right: 5px;
   vertical-align: middle;
-  width:20px; 
-  height: 20px;
+  width:15px; 
+  height: 15px;
 }
 .cate-img{
   width: 350rpx;
@@ -104,6 +102,7 @@ border-radius:50rpx;
   padding-right: 20rpx;
 }
 .funct .funct-list{
+  font-size: 25rpx;
   display: inline-block;
 }
 
@@ -119,55 +118,7 @@ border-radius:50rpx;
     color: rgba(0,0,0,.3);
 }
 
-.newest-box{
-    padding:0 20rpx;
-}
-.newest-box .newest-list{
-    display: inline-block;
-    width: 340rpx;
-    height: 435rpx;
-    margin:0 20rpx 20rpx 0;
-    border-radius: 10px;
-    text-align: center;
-}
-.newest-box .newest-list:nth-child(2n){
-    margin-right: 0;
-}
-.newest-box .newest-list .cate-img{
-    width: 335rpx;
-    height: 335rpx;
-    margin: 20rpx 0 10rpx;
-}
-.newest-box .newest-list .newest-text{
-    font-size: 32rpx;
-}
-.cate-info .touxiang-img{
-   display: inline-block;
-  width: 30rpx;
-  height:30rpx;
-  text-align: left;
-  border-radius:15rpx;
-}
-.cate-info .user-name{
-  display: inline-block;
-  margin: 5rpx 0rpx auto;
-  font-size: 30rpx;
-  width: 50%;
-  text-align: left;
-}
-.cate-info .zan-view{
- display: inline-block;
- text-align: left;
-}
- .zan-img{
-  width: 20rpx;
-  height: 20rpx;
-  box-align: right;
-}
- .zan-score{
-  font-size: 30rpx;
-  color: gainsboro;
-}
+
 .foot{
   height: 200rpx;
 }

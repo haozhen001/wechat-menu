@@ -1,0 +1,19 @@
+ <view class="newest-box">
+     <block wx:for="{{cates}}">
+              <view class="newest-list">
+                  <image class="cate-img"  src="{{item.cateimage}}" ></image>
+                  <view class="cate-name"><text>{{item.catename}}</text></view>
+                  <view class="cate-info">
+                      <image class="touxiang-img"  
+                              src="{{item.userhead}}">
+                      </image>
+                      <text class="user-name">{{item.username}}</text>
+                      <view class="zan-view">
+                          <image class="zan-img"  
+                                src="/resource/image/like.png"></image>
+                          <text class="zan-score">{{item.score}}</text>
+                      </view>
+                  </view> 
+              </view>
+    </block> 
+</view>

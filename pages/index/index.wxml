@@ -1,9 +1,8 @@
 <view class="page">
-    <view class="page__bd">
       <view class="search">
           <navigator url="/pages/search/search">
               <view class="search-text">
-                  <icon class="weui-icon-search_in-box search-icon" type="search" size="14"></icon>
+                  <icon class="weui-icon-search_in-box search-icon" type="search" size="16"></icon>
                       搜 索
               </view>
           </navigator>
@@ -18,14 +17,12 @@
               </block>
       </swiper>
 
-      <view class="flex-wrp" >
-        <block wx:for="{{btnImages}}">
-            <image class="mybtn-image" src="{{item}}"/>
-        </block>
-      </view>
-      <view class="flex-text" >
-        <block wx:for="{{btnTexts}}">
-            <text class="mybtn-text">{{item}}</text>
+      <view class="barbtns" >
+        <block wx:for="{{tabbtns}}">
+          <view class="btn-list">
+            <image class="mybtn-image" src="{{item.image}}"/>
+            <view>{{item.name}}</view>
+          </view>
         </block>
       </view>
           
@@ -49,100 +46,8 @@
                   </view>
               </block>
           </view>
-          
-          <view class="newest-box">
-            <view class="newest-list">
-                  <image class="cate-img"  src="/resource/asserts/meishi-1.png" ></image>
-                  <view class="cate-name"><text>牛肉饭</text></view>
-                  <view class="cate-info">
-                      <image class="touxiang-img"  
-                              src="/resource/asserts/touxiang-1.jpg">
-                      </image>
-                      <text class="user-name">dasdasd</text>
-                      <view class="zan-view">
-                          <image class="zan-img"  
-                                src="/resource/image/like.png"></image>
-                          <text class="zan-score">1.1w</text>
-                      </view>
-                  </view> 
-              </view>
-              <view class="newest-list">
-                    <image class="cate-img" src="/resource/asserts/meishi-3.png" ></image>
-                    <view class="cate-name"><text>牛肉饭</text></view>
-                     <view class="cate-info">
-                        <image class="touxiang-img"  
-                                src="/resource/asserts/touxiang-1.jpg">
-                        </image>
-                        <text class="user-name">dasdasd</text>
-                        <view class="zan-view">
-                            <image class="zan-img"  
-                                  src="/resource/image/like.png"></image>
-                            <text class="zan-score">1.1w</text>
-                        </view>
-                      </view> 
-              </view>
-            <view class="newest-list">
-                  <image class="cate-img"  src="/resource/asserts/meishi-4.jpg" ></image>
-                  <view class="cate-name"><text>牛肉饭</text></view>
-                   <view class="cate-info">
-                        <image class="touxiang-img"  
-                                src="/resource/asserts/touxiang-1.jpg">
-                        </image>
-                        <text class="user-name">dasdasd</text>
-                        <view class="zan-view">
-                            <image class="zan-img"  
-                                  src="/resource/image/like.png"></image>
-                            <text class="zan-score">1.1w</text>
-                        </view>
-                      </view> 
-            </view>
-              <view class="newest-list">
-                    <image class="cate-img" src="/resource/asserts/meishi-2.png" ></image>
-                    <view class="cate-name"><text>牛肉饭</text></view>
-                     <view class="cate-info">
-                        <image class="touxiang-img"  
-                                src="/resource/asserts/touxiang-1.jpg">
-                        </image>
-                        <text class="user-name">dasdasd</text>
-                        <view class="zan-view">
-                            <image class="zan-img"  
-                                  src="/resource/image/like.png"></image>
-                            <text class="zan-score">1.1w</text>
-                        </view>
-                      </view> 
-              </view>
-               <view class="newest-list">
-                  <image class="cate-img"  src="/resource/asserts/meishi-4.jpg" ></image>
-                  <view class="cate-name"><text>牛肉饭</text></view>
-                   <view class="cate-info">
-                        <image class="touxiang-img"  
-                                src="/resource/asserts/touxiang-1.jpg">
-                        </image>
-                        <text class="user-name">dasdasd</text>
-                        <view class="zan-view">
-                            <image class="zan-img"  
-                                  src="/resource/image/like.png"></image>
-                            <text class="zan-score">1.1w</text>
-                        </view>
-                      </view> 
-            </view>
-              <view class="newest-list">
-                    <image class="cate-img" src="/resource/asserts/meishi-2.png" ></image>
-                    <view class="cate-name"><text>牛肉饭</text></view>
-                     <view class="cate-info">
-                        <image class="touxiang-img"  
-                                src="/resource/asserts/touxiang-1.jpg">
-                        </image>
-                        <text class="user-name">dasdasd</text>
-                        <view class="zan-view">
-                            <image class="zan-img"  
-                                  src="/resource/image/like.png"></image>
-                            <text class="zan-score">1.1w</text>
-                        </view>
-                      </view> 
-              </view>
-          </view>
+          <cate-list cates="{{cates}}"></cate-list>   
+
           <view class="foot">
           </view>
-    </view>
 </view>

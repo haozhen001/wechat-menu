@@ -2,7 +2,15 @@
   "pages": [
     "pages/index/index",
     "pages/person/person",
-    "pages/search/search"
+    "pages/search/search",
+    "pages/menu/menu",
+    "pages/rank/rank",
+    "pages/activity/activity",
+    "pages/recommend/recommend",
+    "pages/addcate/addcate",
+    "pages/addnote/addnote",
+    "pages/mine/mine",
+    "pages/note/note"
   ],
   "tabBar": {
     "custom": true,
@@ -26,11 +34,11 @@
     ]
   },
   "window": {
-      "navigationBarTextStyle": "black",
-      "navigationBarTitleText": "恰饭",
-      "navigationBarBackgroundColor": "#ffffff",
-      "backgroundColor": "#000000",
-      "enablePullDownRefresh": true
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "恰饭",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#000000",
+    "enablePullDownRefresh": true
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

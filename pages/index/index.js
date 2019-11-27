@@ -12,17 +12,23 @@ Page({
         '/resource/asserts/swiper-2.png',
         '/resource/asserts/swiper-3.png'
       ],
-      btnImages:[
-        '/resource/image/tuijian.png',
-        '/resource/image/caipu.png',
-        '/resource/image/paihang.png',
-        '/resource/image/huodong.png',
-      ],btnTexts: [
-      '推荐',
-      '菜谱',
-      '排行',
-      '活动',
-    ],funcs:[
+      tabbtns:[{
+        image:'/resource/image/tuijian.png',
+        name:'推荐',
+        page:''
+      }, {
+          image: '/resource/image/caipu.png',
+          name: '菜谱',
+          page: ''
+        }, {
+          image: '/resource/image/paihang.png',
+          name: '排行',
+          page: ''
+        }, {
+          image: '/resource/image/huodong.png',
+          name: '活动',
+          page: ''
+        }],funcs:[
       {
         id:1,
         name:'猜你喜欢',
@@ -32,15 +38,31 @@ Page({
           id: 2,
           name: '我的关注',
           icon: '/resource/image/tuijian.png',
+        },
+        {
+          id: 3,
+          name: '分享笔记',
+          icon: '/resource/image/tuijian.png',
         }
     ],
     marks:[
       '烹饪小技巧',
       '你的家乡过年在吃什么',
       '饮食养生','美容养颜茶','下午茶'
-    ], cates: [{ cateid: '', catename: '', userid: '', username: '', userhead: '', score: 4 }, 
-    { cateid: '', catename: '', userid: '', username: '', userhead: '', score: 4 }, 
-    { cateid: '', catename: '', userid: '', username: '', userhead: '', score: 4 }, { cateid: '', catename: '', userid: '', username: '', userhead: '', score: 4 }],
+    ], cates: [
+      {cateid: '1', catename: '牛肉饭', cateimage:'/resource/asserts/meishi-1.png', 
+        userid: '1', username: '小粉侠', 
+        userhead: '/resource/asserts/touxiang-1.jpg',score:'1.1w'},
+      {cateid: '2', catename: '排骨腊肉', cateimage:'/resource/asserts/meishi-2.png',
+        userid: '2', username: '大骨头', 
+        userhead: '/resource/asserts/touxiang-1.jpg', score: '7895' }, 
+      {cateid: '3', catename: '寿司', cateimage: '/resource/asserts/meishi-3.png',
+        userid: '3', username: '都不打', 
+        userhead: '/resource/asserts/touxiang-1.jpg', score: '1.3w' },
+      {cateid: '4', catename: '大闸蟹', cateimage: '/resource/asserts/meishi-4.jpg',
+        userid: '4', username: 'dadas', 
+        userhead: '/resource/asserts/touxiang-1.jpg', score: '5.1w' } 
+    ],
       indicatorDots: true,
       autoplay: true,
       interval: 3000,
