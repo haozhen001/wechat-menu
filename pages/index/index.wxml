@@ -18,7 +18,7 @@
       </swiper>
 
       <view class="barbtns" >
-        <block wx:for="{{tabbtns}}">
+        <block wx:for="{{tabbtns}}"  wx:key="*this">
           <view class="btn-list">
             <image class="mybtn-image" src="{{item.image}}"/>
             <view>{{item.name}}</view>
@@ -29,7 +29,7 @@
       <view class="hx-view"></view>
           
           <view class="mark">
-                <block wx:for="{{marks}}">
+                <block wx:for="{{marks}}"  wx:key="*this">
                   <view class="mark-list">
                     <view class="placeholder" ><text>#{{item}}</text></view>
                   </view>
@@ -37,7 +37,7 @@
           </view>
 
           <view class="funct">
-               <block wx:for="{{funcs}}">
+               <block wx:for="{{funcs}}"  wx:key="*this">
                   <view class="funct-list">
                     <image class="show-cate" src="{{item.icon}}" />
                    </view>

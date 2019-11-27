@@ -1,5 +1,5 @@
  <view class="newest-box">
-     <block wx:for="{{cates}}">
+     <block wx:for="{{cates}}"  wx:key="*item.id">
               <view class="newest-list">
                   <image class="cate-img"  src="{{item.cateimage}}" ></image>
                   <view class="cate-name"><text>{{item.catename}}</text></view>
