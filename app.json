@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/person/person",
+    "pages/search/search"
+  ],
+  "tabBar": {
+    "custom": true,
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/index2.png",
+        "selectedIconPath": "image/index.png",
+        "text": "组件"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "iconPath": "image/geren2.png",
+        "selectedIconPath": "image/geren.png",
+        "text": "接口"
+      }
+    ]
+  },
+  "window": {
+      "navigationBarTextStyle": "black",
+      "navigationBarTitleText": "恰饭",
+      "navigationBarBackgroundColor": "#ffffff",
+      "backgroundColor": "#000000",
+      "enablePullDownRefresh": true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

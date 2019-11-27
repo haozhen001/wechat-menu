@@ -1,0 +1,173 @@
+/* pages/index/index.wxss */
+page {
+  height: 100%;
+}
+.search{
+    padding: 20rpx;
+}
+.search-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50rpx;
+    color: #aaa;
+    font-size: 20rpx;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 20rpx;
+}
+.search-text icon{
+    margin-right: 10rpx;
+}
+swiper-item{
+border-radius:50rpx;
+}
+ .myswiper{
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  margin: 10rpx auto;
+  height: 300rpx;
+  width: 710rpx; 
+  
+}
+.slide-image{
+  width: 710rpx; 
+  height: 280rpx;
+  border-radius:50rpx;
+}
+.flex-text{
+    display:flew;
+  margin-left: 40rpx;
+  margin-top: -10rpx;
+  margin-bottom: 10rpx;
+}
+.flex-wrp{
+  display:flew;
+  margin-left: 40rpx;
+  margin-top: 40rpx;
+  margin-bottom: -20rpx;
+}
+.mybtn-image{
+  padding: 0rpx 30rpx;
+  width: 100rpx;
+  height: 100rpx;
+}
+.mybtn-text{
+  font-size: 30rpx;
+  padding: 0rpx 50rpx;
+  width: 120rpx;
+  height: 100rpx;
+}
+
+.hx-view{
+  background-color: rgba(0, 0, 0, 0.33);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 1px;
+  transform: scaleY(0.5);
+}
+.show-cate{
+  font-size: 30rpx;
+  margin-right: 5px;
+  vertical-align: middle;
+  width:20px; 
+  height: 20px;
+}
+.cate-img{
+  width: 350rpx;
+  height:350rpx;
+  border-radius:50rpx;
+}
+
+
+.cate-item{
+  margin:10rpx 10rpx auto;
+}
+.cate-name{
+   font-size: 40rpx;
+    width: 100%;
+    margin:-10rpx 10rpx auto;
+    color: #AB956D;
+    text-align: center;
+}
+.mark{
+  margin: 40rpx ;
+}
+.mark .mark-list{
+   display: inline-block;
+}
+.funct{
+  margin: 20rpx ;
+}
+.funct-text{
+  padding-right: 20rpx;
+}
+.funct .funct-list{
+  display: inline-block;
+}
+
+.placeholder{
+    margin: 5px;
+    font-size: 30rpx;
+    padding: 0 10px;
+    text-align: center;
+    background-color: #F7F7F7;
+    height: 2.3em;
+    line-height: 2.3em;
+    border-radius:50rpx;
+    color: rgba(0,0,0,.3);
+}
+
+.newest-box{
+    padding:0 20rpx;
+}
+.newest-box .newest-list{
+    display: inline-block;
+    width: 340rpx;
+    height: 435rpx;
+    margin:0 20rpx 20rpx 0;
+    border-radius: 10px;
+    text-align: center;
+}
+.newest-box .newest-list:nth-child(2n){
+    margin-right: 0;
+}
+.newest-box .newest-list .cate-img{
+    width: 335rpx;
+    height: 335rpx;
+    margin: 20rpx 0 10rpx;
+}
+.newest-box .newest-list .newest-text{
+    font-size: 32rpx;
+}
+.cate-info .touxiang-img{
+   display: inline-block;
+  width: 30rpx;
+  height:30rpx;
+  text-align: left;
+  border-radius:15rpx;
+}
+.cate-info .user-name{
+  display: inline-block;
+  margin: 5rpx 0rpx auto;
+  font-size: 30rpx;
+  width: 50%;
+  text-align: left;
+}
+.cate-info .zan-view{
+ display: inline-block;
+ text-align: left;
+}
+ .zan-img{
+  width: 20rpx;
+  height: 20rpx;
+  box-align: right;
+}
+ .zan-score{
+  font-size: 30rpx;
+  color: gainsboro;
+}
+.foot{
+  height: 200rpx;
+}
