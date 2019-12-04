@@ -19,10 +19,12 @@
 
       <view class="barbtns" >
         <block wx:for="{{tabbtns}}"  wx:key="*this">
-          <view class="btn-list">
-            <image class="mybtn-image" src="{{item.image}}"/>
-            <view>{{item.name}}</view>
-          </view>
+            <view class="btn-list">
+              <navigator url="{{item.page}}?title=navigate" >
+                <image class="mybtn-image" src="{{item.image}}"/>
+                <view>{{item.name}}</view>
+              </navigator>
+            </view>
         </block>
       </view>
           

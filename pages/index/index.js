@@ -15,19 +15,19 @@ Page({
       tabbtns:[{
         image:'/resource/image/tuijian.png',
         name:'推荐',
-        page:''
+        page:'../recommend/recommend'
       }, {
           image: '/resource/image/caipu.png',
           name: '菜谱',
-          page: ''
+          page: '../menu/menu'
         }, {
           image: '/resource/image/paihang.png',
           name: '排行',
-          page: ''
+          page: '../rank/rank'
         }, {
           image: '/resource/image/huodong.png',
           name: '活动',
-          page: ''
+          page: '../activity/activity'
         }],funcs:[
       {
         id:1,
