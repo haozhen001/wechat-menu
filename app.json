@@ -7,8 +7,6 @@
     "pages/rank/rank",
     "pages/activity/activity",
     "pages/recommend/recommend",
-    "pages/addcate/addcate",
-    "pages/addnote/addnote",
     "pages/mine/mine",
     "pages/note/note"
   ],

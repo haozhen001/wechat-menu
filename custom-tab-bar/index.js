@@ -1,5 +1,6 @@
 Component({
   data: {
+    isShow:false,
     selected: 0,
     color: "#7A7E83",
     selectedColor: "#3cc51f",
@@ -15,9 +16,18 @@ Component({
       text: "我的"
     }]
   },
+  onShow(){
+    
+  },
   attached() {
   },
   methods: {
+    onEdit(){
+      wx.redirectTo({ url:"/pages/addcate/addcate",
+        success: function (res) {
+        } 
+      })
+    },
     switchTab(e) {
       const data = e.currentTarget.dataset
       const url = data.path

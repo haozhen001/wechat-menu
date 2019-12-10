@@ -1,6 +1,6 @@
 <!--miniprogram/custom-tab-bar/index.wxml-->
-<cover-image src="../image/edit.png" class="edit-icon-size">
-
+<view class="my-tab-bar" wx:if="{{isShow}}">
+<cover-image src="../image/edit.png" bindtap="onEdit" class="edit-icon-size">
 </cover-image>
 <cover-image src="../image/dibu.png" class="bar-back">
 
@@ -11,3 +11,4 @@
     <cover-view style="color: {{selected === index ? selectedColor : color}}">{{item.text}}</cover-view>
   </cover-view>
 </cover-view>
+</view>

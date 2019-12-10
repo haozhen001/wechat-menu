@@ -1,1 +1,2 @@
 /* pages/addcate/addcate.wxss */
+@import "/common/weui.wxss";
